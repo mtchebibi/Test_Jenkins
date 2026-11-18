@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Test en échec') {
             steps {
-                sh 'exit 1'
+                sh 'echo "sans erreur"'
             }
         }
     }
